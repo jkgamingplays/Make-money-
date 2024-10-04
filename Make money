@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey & Task Earning App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Earn Money with Surveys and Tasks</h1>
+        <nav>
+            <ul>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#surveys">Surveys</a></li>
+                <li><a href="#tasks">Tasks</a></li>
+                <li><a href="#cashout">Cash Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="register">
+        <h2>Register</h2>
+        <form action="register.php" method="POST"> <!-- Form submission action -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="surveys">
+        <h2>Available Surveys</h2>
+        <ul>
+            <li>Survey 1: Earn £1.00</li>
+            <li>Survey 2: Earn £0.75</li>
+            <li>Survey 3: Earn £1.50</li>
+            <!-- More surveys can be added here -->
+        </ul>
+        <button>Start a Survey</button>
+    </section>
+
+    <section id="tasks">
+        <h2>Available Tasks</h2>
+        <ul>
+            <li>Task 1: Earn £0.50</li>
+            <li>Task 2: Earn £1.00</li>
+            <li>Task 3: Earn £0.25</li>
+            <!-- More tasks can be added here -->
+        </ul>
+        <button>Start a Task</button>
+    </section>
+
+    <section id="cashout">
+        <h2>Cash Out Options</h2>
+        <p>Choose your cash-out method:</p>
+        <ul>
+            <li>Amazon</li>
+            <li>PayPal</li>
+            <li>Mastercard</li>
+            <li>Visa</li>
+        </ul>
+        <p>Minimum cash-out amount: £0.01</p>
+        <button>Cash Out</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Survey & Task Earning App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
